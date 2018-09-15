@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    
+    <servlet>
+        <servlet-name>s1</servlet-name>
+        <servlet-class>newpackage.s1</servlet-class>
+        <init-param>
+            <param-name>driver1</param-name>
+            <param-value>config</param-value>
+        </init-param>
+    </servlet>
+     <context-param>
+        <param-name>driver</param-name>
+        <param-value>context</param-value>
+    </context-param>
+    <servlet>
+        <servlet-name>s2</servlet-name>
+        <servlet-class>newpackage.s2</servlet-class>
+        <init-param>
+            <param-name>Name</param-name>
+            <param-value>Juan</param-value>
+            <param-name>Age</param-name>
+            <param-value>age</param-value>
+            <param-name>Address</param-name>
+            <param-value>address</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>s1</servlet-name>
+        <url-pattern>/s1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>s2</servlet-name>
+        <url-pattern>/s2</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

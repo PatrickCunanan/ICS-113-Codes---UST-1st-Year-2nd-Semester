@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05 17, 16, 9:58:26 PM
+    Author     : Miguel
+*/
+
+.btn1 {
+  display: block;
+  background: #030303;
+  background-image: -webkit-linear-gradient(top, #030303, #353738);
+  background-image: -moz-linear-gradient(top, #030303, #353738);
+  background-image: -ms-linear-gradient(top, #030303, #353738);
+  background-image: -o-linear-gradient(top, #030303, #353738);
+  background-image: linear-gradient(to bottom, #030303, #353738);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Code;
+  color: #ffffff;
+  text-align: center;
+  font-size: 50px;
+  padding: 30px 40px 30px 40px;
+  text-decoration: none;
+  width: 500px;
+}
+
+.btn1:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}

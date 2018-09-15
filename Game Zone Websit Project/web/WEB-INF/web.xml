@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>ServletController</servlet-name>
+        <servlet-class>ServletController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletControllerMenu</servlet-name>
+        <servlet-class>ServletControllerMenu</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletController</servlet-name>
+        <url-pattern>/ServletController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletControllerMenu</servlet-name>
+        <url-pattern>/ServletControllerMenu</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <context-param>
+        <param-name>uname</param-name>
+        <param-value>josemiguel</param-value>
+    </context-param>
+</web-app>

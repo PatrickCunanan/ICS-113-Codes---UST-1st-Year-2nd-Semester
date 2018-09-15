@@ -1,0 +1,28 @@
+.btncircle {
+    width:150px;
+    height:150px;
+    line-height:50px;
+    border-radius: 50%;
+    text-align:center;
+    text-decoration:none;
+    font-family: Code;
+    color: #ffffff;
+    font-size:20px;
+    font-weight:bold;
+    background: #030303;
+    background-image: -webkit-linear-gradient(top, #030303, #353738);
+    background-image: -moz-linear-gradient(top, #030303, #353738);
+    background-image: -ms-linear-gradient(top, #030303, #353738);
+    background-image: -o-linear-gradient(top, #030303, #353738);
+    background-image: linear-gradient(to bottom, #030303, #353738);
+}
+.btncircle:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
